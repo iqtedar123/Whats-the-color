@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/blue2"
+    android:layout_height="match_parent" 
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textColor="@color/wh"
+        android:text="@string/instructions"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/textView3"
+        android:gravity="center"
+        android:textColor="@color/wh"
+        android:text="@string/hit_go_"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/textView3"
+        android:text="@string/_1_"
+        android:textColor="@color/wh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:text="@string/hit_clear_all_"
+        android:textColor="@color/wh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="33dp"
+        android:text="@string/_1_"
+        android:textColor="@color/wh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/input_marks_in_for_any_amnt_of_courses"
+        android:textColor="@color/wh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="31dp"
+        android:layout_toLeftOf="@+id/textView5"
+        android:text="@string/_2_"
+        android:textColor="@color/wh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/to_reset_"
+        android:textColor="@color/wh"
+        android:textSize="18sp" />
+
+</RelativeLayout>

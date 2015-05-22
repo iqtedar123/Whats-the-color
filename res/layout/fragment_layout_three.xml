@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue2"
+    android:orientation="horizontal" 
+    android:screenOrientation="portrait">
+
+    <!--
+    **************************IMPORTANT***********************************
+     change this id attribute values as "frag2_icon" and "frag2_text" for
+     fragment_layout_two.xml and "frag3_icon" and "frag3_text" for
+     fragment_layout_three.xml
+    **********************************************************************
+
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:textColor="@color/wh"
+        android:text="@string/download_this_fun_filled_game_its_free_"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/wh"
+        android:background="@drawable/icon1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="@string/for_"
+        android:textColor="@color/wh"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:textColor="@color/wh"
+        android:background="@drawable/android" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/wh"
+        android:text="@string/whats_the_color_"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="137dp"
+        android:background="@drawable/download_icon" />
+
+</RelativeLayout>

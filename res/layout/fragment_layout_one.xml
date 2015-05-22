@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue2"
+    android:orientation="horizontal"
+    android:screenOrientation="portrait" >
+
+    <!--
+    **************************IMPORTANT***********************************
+     change this id attribute values as "frag2_icon" and "frag2_text" for
+     fragment_layout_two.xml and "frag3_icon" and "frag3_text" for
+     fragment_layout_three.xml
+    **********************************************************************
+
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="@color/wh"
+        android:text="@string/reference_chart" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/wh"
+        android:text="@string/percentage" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="52dp"
+        android:textColor="@color/wh"
+        android:text="@string/value" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:textColor="@color/wh"
+        android:text="@string/_85_100" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/textView3"
+        android:textColor="@color/wh"
+        android:text="@string/_4_0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignLeft="@+id/textView5"
+        android:textColor="@color/wh"
+        android:text="@string/_3_7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignRight="@+id/textView3"
+        android:textColor="@color/wh"
+        android:text="@string/_3_3" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:textColor="@color/wh"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_below="@+id/textView11"
+        android:text="@string/_67_69" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_below="@+id/textView13"
+        android:text="@string/_63_66" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_below="@+id/textView15"
+        android:text="@string/_60_62" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_below="@+id/textView17"
+        android:text="@string/_57_59" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/textView7"
+        android:text="@string/_3_0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:text="@string/_80_84" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:text="@string/_77_79" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:text="@string/_73_76" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/textView11"
+        android:text="@string/_2_3" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:text="@string/_2_0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView16"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignRight="@+id/textView15"
+        android:text="@string/_1_7" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView18"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignLeft="@+id/textView17"
+        android:text="@string/_1_3" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_below="@+id/textView18"
+        android:text="@string/_53_56" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView20"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignRight="@+id/textView23"
+        android:text="@string/_1_0" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_below="@+id/textView20"
+        android:text="@string/_50_52" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView22"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignLeft="@+id/textView19"
+        android:text="@string/_0_7" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_below="@+id/textView22"
+        android:text="@string/_0_49" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView24"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignLeft="@+id/textView23"
+        android:text="@string/_0_0" />
+
+    <Button
+        android:id="@+id/button1"
+        android:textColor="@color/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:text="@string/more_information" />
+
+</RelativeLayout>
